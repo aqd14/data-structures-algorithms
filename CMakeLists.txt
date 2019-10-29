@@ -13,3 +13,4 @@ add_executable(SelectionSort Sorting/SortingUtility.cpp Sorting/SelectionSort.cp
 add_executable(ShellSort Sorting/SortingUtility.cpp Sorting/ShellSort.cpp)
 add_executable(CoutingSort Sorting/SortingUtility.cpp Sorting/CountingSort.cpp)
 add_executable(QuickSort Sorting/SortingUtility.cpp Sorting/QuickSort.cpp)
+add_executable(QuickSort3Way Sorting/SortingUtility.cpp Sorting/QuickSort3Way.cpp)

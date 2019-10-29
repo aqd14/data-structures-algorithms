@@ -68,7 +68,7 @@ public:
         int pivot = inputs[low]; //inputs[low + (high - low) / 2];
 
         while (true) {
-            while (inputs[++left] <= pivot) {
+            while (inputs[++left] < pivot) {
                 if (left == high) break;
             }
 
